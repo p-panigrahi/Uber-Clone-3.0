@@ -6,7 +6,7 @@ import { SourceContext } from "../context/SourceContext";
 import { LoadScript } from "@react-google-maps/api";
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [source, setSource] = useState([]);
   const [destination, setDestination] = useState([]);
   return (
@@ -29,4 +29,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
